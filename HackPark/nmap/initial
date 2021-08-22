@@ -1,0 +1,7 @@
+# Nmap 7.91 scan initiated Fri Aug 20 21:34:12 2021 as: nmap -sC -sV -Pn -oN nmap/initial 10.10.135.193
+Nmap scan report for 10.10.135.193
+Host is up.
+All 1000 scanned ports on 10.10.135.193 are filtered
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 20 21:37:34 2021 -- 1 IP address (1 host up) scanned in 201.94 seconds

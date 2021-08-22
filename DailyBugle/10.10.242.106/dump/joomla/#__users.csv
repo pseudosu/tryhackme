@@ -1,0 +1,3 @@
+id,name,username,email,password,usertype,block,sendEmail,registerDate,lastvisitDate,activation,params
+811,Super User,jonah,jonah@tryhackme.com,$2y$10$0veO/JSFh4389Lluc4Xya.dfy2MF.bZhz0jVMw.V.d3p12kBtZutm,,0,1,2019-12-14 20:43:49,2019-12-15 23:58:06,0,<blank>
+

